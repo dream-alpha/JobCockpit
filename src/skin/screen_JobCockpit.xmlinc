@@ -1,0 +1,11 @@
+	<screen name="JobCockpit" position="center,center" size="1200,820" title="Job Manager">
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="10,5" size="295,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="305,5" size="295,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="600,5" size="295,70"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="895,5" size="295,70"/>
+		<widget backgroundColor="#9f1313" font="Regular;25" halign="center" position="10,5" render="Label" size="295,70" source="key_red" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;25" halign="center" position="305,5" render="Label" size="295,70" source="key_green" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;25" halign="center" position="600,5" render="Label" size="295,70" source="key_yellow" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;25" halign="center" position="895,5" render="Label" size="295,70" source="key_blue" transparent="1" valign="center" zPosition="1"/>
+		<xmlinc file="screenpart_JobCockpitList" position="10,100"/>
+	</screen>
