@@ -1,0 +1,6 @@
+	<screen backgroundColor="background" flags="wfNoBorder" name="JobCockpit" position="0,0" size="1200,1080">
+		<xmlinc file="screenpart_TitleOnly" source="Title"/>
+		<xmlinc file="screenpart_Background"/>
+		<xmlinc file="screenpart_JobCockpitList" position="10,100"/>
+		<xmlinc file="screenpart_4Buttons_source_2x" position="0,eval($screen_height-85)" width="eval($screen_width/$4)"/>
+	</screen>
