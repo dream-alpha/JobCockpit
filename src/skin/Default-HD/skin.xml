@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<skin>
+	<screen name="JobCockpit" position="center,center" size="800,547" title="Job Manager">
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/red.svg" position="7,3" size="197,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/green.svg" position="203,3" size="197,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/yellow.svg" position="400,3" size="197,47"/>
+		<ePixmap pixmap="Default-FHD/skin_default/buttons/blue.svg" position="597,3" size="197,47"/>
+		<widget backgroundColor="#9f1313" font="Regular;17" halign="center" position="7,3" render="Label" size="197,47" source="key_red" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#1f771f" font="Regular;17" halign="center" position="203,3" render="Label" size="197,47" source="key_green" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#a08500" font="Regular;17" halign="center" position="400,3" render="Label" size="197,47" source="key_yellow" transparent="1" valign="center" zPosition="1"/>
+		<widget backgroundColor="#18188b" font="Regular;17" halign="center" position="597,3" render="Label" size="197,47" source="key_blue" transparent="1" valign="center" zPosition="1"/>
+		<widget enableWrapAround="1" position="7,67" render="Listbox" scrollbarMode="showOnDemand" size="787,427" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">{"template":[MultiContentEntryText(pos=(7,0),size=(773,27),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0,text=0),MultiContentEntryText(pos=(7,27),size=(133,27),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0,text=1),MultiContentEntryProgress(pos=(167,33),size=(533,13),percent=-2,borderWidth=1),MultiContentEntryText(pos=(707,27),size=(67,27),flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,font=0,text=3),],"fonts":[gFont("Regular",19)],"itemHeight":53}</convert>
+		</widget>
+	</screen>
+</skin>

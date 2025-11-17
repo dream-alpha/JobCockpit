@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JobCockpit\n"
+"POT-Creation-Date: 2025-06-14 11:34+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: dream-alpha\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Job Management"
+msgstr "Job Verwaltung"
+
+msgid "Abort current job"
+msgstr "Ausgewählten Job abbrechen"
+
+msgid "Abort all jobs"
+msgstr "Alle Jobs abbrechen"
+
+msgid "Abort all pending jobs"
+msgstr "Alle wartenden Jobs abbrechen"
+
+msgid "Cleanup jobs"
+msgstr "Jobs bereinigen"
+
+msgid "Waiting"
+msgstr "Wartet"
+
+msgid "In Progress"
+msgstr "In Bearbeitung"
+
+msgid "Finished"
+msgstr "Beendet"
+
+msgid "Failed"
+msgstr "Fehlerhaft"
+
+msgid "Manage Jobs"
+msgstr "Jobs verwalten"
+
+msgid "Jobs"
+msgstr "Jobs"

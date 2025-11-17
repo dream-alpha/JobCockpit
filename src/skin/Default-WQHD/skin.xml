@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<skin>
+	<screen backgroundColor="background" flags="wfNoBorder" name="JobCockpit" position="0,0" size="1600,1440">
+		<widget font="Bold;43" noWrap="1" position="27,40" render="Label" size="1547,57" source="Title" transparent="1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1600,648" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,648" size="1600,144" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,792" size="1600,648" zPosition="-1"/>
+		<widget enableWrapAround="1" position="13,133" render="Listbox" scrollbarMode="showOnDemand" size="1573,1173" source="list" transparent="1">
+			<convert type="TemplatedMultiContent">{"template":[MultiContentEntryText(pos=(13,0),size=(1547,53),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0,text=0),MultiContentEntryText(pos=(13,53),size=(267,53),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0,text=1),MultiContentEntryProgress(pos=(333,67),size=(1067,27),percent=-2,borderWidth=1),MultiContentEntryText(pos=(1413,53),size=(133,53),flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,font=0,text=3),],"fonts":[gFont("Regular",37)],"itemHeight":107}</convert>
+		</widget>
+		<widget font="Regular;35" halign="center" position="0,1327" render="Label" size="400,93" source="key_red" transparent="1"/>
+		<widget font="Regular;35" halign="center" position="400,1327" render="Label" size="400,93" source="key_green" transparent="1"/>
+		<widget font="Regular;35" halign="center" position="800,1327" render="Label" size="400,93" source="key_yellow" transparent="1"/>
+		<widget font="Regular;35" halign="center" position="1200,1327" render="Label" size="400,93" source="key_blue" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1427" size="400,13"/>
+		<eLabel backgroundColor="#669900" position="400,1427" size="400,13"/>
+		<eLabel backgroundColor="#e5b243" position="800,1427" size="400,13"/>
+		<eLabel backgroundColor="#3366cc" position="1200,1427" size="400,13"/>
+	</screen>
+</skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<skin>
+	<screen backgroundColor="background" flags="wfNoBorder" name="JobCockpit" position="0,0" size="1200,1080">
+		<widget font="Bold;32" noWrap="1" position="20,30" render="Label" size="1160,43" source="Title" transparent="1"/>
+		<ePixmap gradient="#ff000000,#131a1d,vertical" position="0,0" size="1200,486" zPosition="-1"/>
+		<eLabel backgroundColor="#131a1d" position="0,486" size="1200,108" zPosition="-1"/>
+		<ePixmap gradient="#131a1d,#ff000000,vertical" position="0,594" size="1200,486" zPosition="-1"/>
+		<widget enableWrapAround="1" position="10,100" render="Listbox" scrollbarMode="showOnDemand" size="1180,880" source="list" transparent="1">
+			<convert type="TemplatedMultiContent"> {"template": [ MultiContentEntryText(pos=(10,0),size=(1160,40),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0, text=0), MultiContentEntryText(pos=(10,40),size=(200,40),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0, text=1), MultiContentEntryProgress(pos=(250,50),size=(800,20),percent=-2, borderWidth=1), MultiContentEntryText(pos=(1060,40),size=(100,40),flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,font=0, text=3), ], "fonts": [gFont("Regular",28)], "itemHeight": 80 } </convert>
+		</widget>
+		<widget font="Regular;26" halign="center" position="0,995" render="Label" size="300,70" source="key_red" transparent="1"/>
+		<widget font="Regular;26" halign="center" position="300,995" render="Label" size="300,70" source="key_green" transparent="1"/>
+		<widget font="Regular;26" halign="center" position="600,995" render="Label" size="300,70" source="key_yellow" transparent="1"/>
+		<widget font="Regular;26" halign="center" position="900,995" render="Label" size="300,70" source="key_blue" transparent="1"/>
+		<eLabel backgroundColor="#ff0000" position="0,1070" size="300,10"/>
+		<eLabel backgroundColor="#669900" position="300,1070" size="300,10"/>
+		<eLabel backgroundColor="#e5b243" position="600,1070" size="300,10"/>
+		<eLabel backgroundColor="#3366cc" position="900,1070" size="300,10"/>
+	</screen>
+</skin>

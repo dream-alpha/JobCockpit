@@ -1,0 +1,5 @@
+#!/bin/sh
+if [ ! -f /usr/lib/enigma2/python/Components/Task.py.org ]; then
+	mv /usr/lib/enigma2/python/Components/Task.py /usr/lib/enigma2/python/Components/Task.py.org
+fi
+exit 0

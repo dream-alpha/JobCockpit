@@ -1,0 +1,3 @@
+	<widget enableWrapAround="1" position="0,0" render="Listbox" scrollbarMode="showOnDemand" size="eval($screen_width-27),eval($screen_height-267)" source="list" transparent="1">
+		<convert type="TemplatedMultiContent">{"template":[MultiContentEntryText(pos=(13,0),size=(eval($screen_width-53),53),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0,text=0),MultiContentEntryText(pos=(13,53),size=(267,53),flags=RT_HALIGN_LEFT|RT_VALIGN_CENTER,font=0,text=1),MultiContentEntryProgress(pos=(333,67),size=(1067,27),percent=-2,borderWidth=1),MultiContentEntryText(pos=(1413,53),size=(133,53),flags=RT_HALIGN_RIGHT|RT_VALIGN_CENTER,font=0,text=3),],"fonts":[gFont("Regular",37)],"itemHeight":107}</convert>
+	</widget>
