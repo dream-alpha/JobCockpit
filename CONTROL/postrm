@@ -1,0 +1,14 @@
+#!/bin/sh
+if [ "$1" = "remove" ]; then
+	rm -rf /usr/lib/enigma2/python/Plugins/SystemPlugins/JobCockpit > /dev/null 2>&1
+	if [ -f /usr/lib/enigma2/python/Components/Task.py.org ]; then
+		cp /usr/lib/enigma2/python/Components/Task.py.org /usr/lib/enigma2/python/Components/Task.py
+	fi
+	if [ -f /usr/lib/enigma2/python/Components/Task.pyc.org ]; then
+		cp /usr/lib/enigma2/python/Components/Task.pyc.org /usr/lib/enigma2/python/Components/Task.pyc
+	fi
+	echo "JobCockpit plugin removed successfully."
+else
+	echo "do nothing"
+fi
+exit 0

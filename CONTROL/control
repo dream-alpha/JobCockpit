@@ -1,0 +1,5 @@
+Description: JobCockpit
+Maintainer: dream-alpha
+Package: enigma2-plugin-systemplugins-jobcockpit
+Version: 0.1.0
+Architecture: all
